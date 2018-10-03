@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Header from './container/Header/Header'
 import SortingSection from './container/SortingSection/SortingSection';
 import Card from './container/Card/Card'
+import Footer from './container/Footer/Footer'
 
 export class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export class App extends Component {
         <Header />
         <SortingSection />
         <Card />
+        <Footer />
       </div>
     )
   }

@@ -1,5 +1,4 @@
 .Card {
-  height: 500px;
   width: 30%;
   margin-bottom: 30px;
 
@@ -10,7 +9,9 @@
 
 .CardImage {
   img {
-    height: 400px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
   }
 }
 
@@ -24,9 +25,15 @@
   .CardYear {
     padding: 3px 5px;
     border: 1px solid #000;
+    border-radius: 5px;
   }
 }
 
 .CardGenre {
   color: gray;
+}
+
+.CardDescription {
+  width: 90%;
+  margin: 0 auto;
 }

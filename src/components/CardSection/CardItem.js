@@ -8,7 +8,7 @@ const CardItem = (props) => {
       <div className={styles.CardImage}>
         <img src='https://cdn.miramax.com/media/assets/Pulp-Fiction1.png' />
       </div>
-      <div>
+      <div className={styles.CardDescription}>
         <p className={styles.CardFilmName} >Pulp Fiction<span className={styles.CardYear}>2004</span></p>
         <p className={styles.CardGenre}>Crime</p>
       </div>
